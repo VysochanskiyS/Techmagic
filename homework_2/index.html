@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container" class="container">
+    <h1 class="text-center">Interaction between Star wars</h1>
+    <div  class="block  text-center">
+    <button id="info" type="button" class="btn btn-primary">People</button>
+    <button id="planet" type="button" class="btn btn-primary">planets</button>
+    
+    </div>
+        <div id="block" class="border border-dark"><div id="spinner" class="loader"></div></div>
+        <div>
+            <h2 id='film_title'>Films</h2>
+            <div id="about" class="about"></div>
+            <h2 id='film_names'>Films</h2>
+        <div id="films"></div>
+        </div>
+        <div id="planets" class="planets border border-dark mt-3 p-3">
+            <div id="spinner_planets" class="loader"></div>
+        </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+    </html>
