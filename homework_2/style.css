@@ -1,0 +1,84 @@
+#block{
+    margin-top: 10px;
+    padding: 7px;
+    font-size: 18px;
+    display: none;
+}
+#block>div{
+cursor: pointer;
+padding: 2px 2px;
+
+}
+#block>div:hover{
+color: red;
+}
+#films{
+    margin-top: 20px;
+    border: 2px solid #000;
+    display: none;
+    padding: 6px;
+    margin-bottom: 40px;
+}
+/* .films{
+
+} */
+.list_of_films{
+    color: black;
+    font-size: 22px;
+}
+#film_title{
+    margin-top: 20px;
+    margin-bottom: -15px;
+    display: none;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  #spinner{
+      display: none;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  #planet{
+      text-align: center;
+      margin-left: 15px;
+  }
+  #spinner_planets{
+      display: none;
+  }
+  #planets{
+      display: none;
+  }
+  .info_about_person{
+      font-weight: 700;
+  }
+  #film_title{
+      text-align: center;
+  }
+  #about{
+      border: 2px solid black;
+      color: #fff;
+      font-size: 18px;
+      border-radius: 15px;
+      padding: 10px;
+      background-color: rgb(2, 2, 2);
+      margin-top: 20px;
+      display: none;
+  }
+  #film_names{
+      margin-top: 5px;
+      margin-bottom: -15px;
+      display: none;
+  }
+  .massage{
+      font-size: 16px;
+      margin-top: 3px;
+  }
