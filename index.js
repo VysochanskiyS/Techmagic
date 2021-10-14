@@ -1,5 +1,4 @@
 //Class
-
 export let start,info_about,eye_color,height,gender ;
 class Person {
     constructor(color,height,gender){

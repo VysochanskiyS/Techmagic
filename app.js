@@ -30,7 +30,6 @@ planet.addEventListener('click',(e)=>{
     about.style.display = 'none'
     film_names.style.display = 'none'
     spin_planets === false ? (spinner_planets.style.display = 'block',get_planet()): '';
-    
 })
 
 //returns list of people
@@ -38,7 +37,6 @@ const data = () => {
   return axios("https://swapi.dev/api/people").then((response)=>{
         list_people(response.data.results)
   }).catch((error)=>{console.log(error)})}
-
 
 const list_people = (data)=>{ 
     spinner.style.display = 'none'
@@ -80,7 +78,6 @@ const getFilms = (index,data)=>{
             films.innerHTML += `<div class='film'>${response.data.title}</div>`
         }).catch((error)=>{console.log(error)})
         })
-        
 }
 
 
