@@ -1,0 +1,56 @@
+    #block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #block>div{
+        display: inline-block;
+        padding: 3px 7px 3px 7px;
+        margin: 3px;
+    }
+    .end{
+        margin-right: 11px;
+        margin-left: 5px;
+        transform:scale(2);
+        margin-top: 7px;
+        margin-left: 15px;
+    }
+    .end_text{
+        font-weight: 700;
+        padding-right: 5px;
+    }
+    .start{
+        margin:0px 10px 5px 30px;
+        transform:  rotate(-90deg) scale(2);
+    }
+    .queue{
+        display: flex;
+            padding: 0 10px;
+    }
+    .queue_block{
+    }
+    #input{
+        width: 300px
+    }
+    #btn{
+    margin-left: 3.8%;
+    }
+    #btn-delete{
+        margin-left: 1%;
+    }
+  .block_item{
+display: flex;
+align-items: flex-end;
+}
+.end_block-text{
+    display: inline-flex;
+}
+.start_block{
+  margin-left: -6px;
+  padding-bottom: 6px;
+ }
+.end_block{
+    padding-top: 3px;
+}
+.start{
+    margin-right: 12px;
+}
