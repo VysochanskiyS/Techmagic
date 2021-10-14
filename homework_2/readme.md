@@ -10,6 +10,8 @@ package.json
 package-lock.json
 readme.md
 style.css
+planet.js
+index.js
 
 //
 
